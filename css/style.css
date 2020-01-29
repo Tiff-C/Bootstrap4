@@ -3,7 +3,7 @@ body {
 }
 
 .alert-container {
-
+    margin: 0;
 }
 
 .callout-container {
@@ -17,10 +17,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
  }
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 .callout-header {
     color: #dce9fd;
+}
+
+.callout-body {
+    color: #FDD29D;
+}
+
+.callout-footer {
+    color: #C9AE9B;
 }
 
 .callout-btn {
